@@ -1,16 +1,32 @@
 @import '../../scss/variables.scss';
 .header {
-  min-height: 85vh;
+  height: 85vh;
   background-image: linear-gradient(
     to bottom,
     $color-primary-light,
     $color-primary-dark
   );
+  position: relative;
 
   &__navigation-container {
+    padding-top: 2.7rem;
+    display: flex;
+    justify-content: space-between;
   }
-  &__logo {
+
+  &__iphone-container {
+    position: absolute;
+    bottom: -17.5rem;
   }
-  &__navigation {
+  &__main-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90%;
+  }
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    width: 61.8rem;
   }
 }
