@@ -15,7 +15,7 @@ const ParagraphPrimary = ({ text, fontSize }) => {
 };
 ParagraphPrimary.propTypes = {
   text: PropTypes.string,
-  fontSize: PropTypes.string
+  fontSize: PropTypes.number
 };
 
 ParagraphPrimary.defaultProps = {
