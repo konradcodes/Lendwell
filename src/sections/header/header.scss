@@ -1,11 +1,10 @@
 @import '../../scss/variables.scss';
 .header {
   height: 85vh;
-  background-image: linear-gradient(
-    to bottom,
-    $color-primary-light,
-    $color-primary-dark
-  );
+  background-image: url('../../assets/images/lines@2x.png'),
+    linear-gradient(to bottom, $color-primary-light, $color-primary-dark);
+  background-size: cover;
+  background-position: bottom;
   position: relative;
 
   &__navigation-container {
@@ -16,7 +15,18 @@
 
   &__iphone-container {
     position: absolute;
-    bottom: -17.5rem;
+    bottom: -17.3rem;
+  }
+  &__iphone-screenshot {
+    background-image: url('../../assets/images/add-your-screenshot-here2x.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    width: 29.9rem;
+    height: 53.1rem;
+    position: absolute;
+    top: 10rem;
+    left: 1.9rem;
   }
   &__main-content {
     display: flex;

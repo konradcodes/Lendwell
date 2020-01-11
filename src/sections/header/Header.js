@@ -21,6 +21,7 @@ const Header = () => (
       </div>
       <div className="header__iphone-container">
         <Iphone version="large" />
+        <span className="header__iphone-screenshot" />
       </div>
       <div className="header__main-content">
         <div className="header__text-box">
