@@ -1,0 +1,16 @@
+@import '../../scss/variables.scss';
+.header {
+  min-height: 85vh;
+  background-image: linear-gradient(
+    to bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+
+  &__navigation-container {
+  }
+  &__logo {
+  }
+  &__navigation {
+  }
+}
