@@ -19,12 +19,12 @@
     background: $color-white;
     color: $color-dark-main;
     transition: transform 0.25s, box-shadow 0.25s;
-    box-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+    box-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.1);
     will-change: transform, box-shadow;
   }
 
   &:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0.5rem 0.5rem 2rem rgba($color-black, 0.1);
+    box-shadow: 0.5rem 0.5rem 2rem rgba($color-black, 0.06);
   }
 }
