@@ -17,6 +17,7 @@ const MainPage = () => (
     <Header />
     <Features />
     <Introduction />
+    <Gallery />
   </Layout>
 );
 
