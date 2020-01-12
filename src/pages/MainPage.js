@@ -15,6 +15,7 @@ import Footer from '../sections/footer/Footer';
 const MainPage = () => (
   <Layout>
     <Header />
+    <Features />
   </Layout>
 );
 

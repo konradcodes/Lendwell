@@ -1,0 +1,45 @@
+@import '../../scss/variables.scss';
+.iconTitle {
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 24rem;
+    height: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5.5rem 1.5rem;
+  }
+
+  &__icon-container {
+    width: 6.5rem;
+    height: 6.5rem;
+    background: $color-white;
+    border: 2px solid $color-light-grey-2;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    width: auto;
+    height: 3.6rem;
+  }
+  &__heading {
+    font-size: 2rem;
+    font-weight: normal;
+    color: $color-dark-main;
+    margin: 1.2rem 0 0.6rem 0;
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $color-dark-grey;
+  }
+}
