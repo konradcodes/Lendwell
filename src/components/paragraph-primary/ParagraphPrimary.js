@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './paragraph-primary.scss';
+import '../../scss/variables.scss';
 
-const ParagraphPrimary = ({ text, fontSize }) => {
+const ParagraphPrimary = ({ text, fontSize, color, lineHeight }) => {
   const styles = {
-    fontSize: `${fontSize}rem`
+    fontSize: `${fontSize}rem`,
+    color,
+    lineHeight
   };
 
   return (

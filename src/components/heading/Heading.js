@@ -1,14 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './heading.scss';
+import '../../scss/variables.scss';
 
-const Heading = ({ text }) => <h1 className="heading">{text}</h1>;
+const Heading = ({ text, color }) => {
+  const styles = {
+    color
+  };
+  return (
+    <h1 className="heading" style={styles}>
+      {text}
+    </h1>
+  );
+};
 
 Heading.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.string,
+  color: PropTypes.string
 };
 
 Heading.defaultProps = {
-  text: ''
+  text: '',
+  color: '$color-dark-main'
 };
 export default Heading;

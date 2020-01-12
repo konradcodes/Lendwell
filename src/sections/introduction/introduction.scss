@@ -1,0 +1,34 @@
+@import '../../scss/variables.scss';
+
+.introduction {
+  padding: 10rem 0;
+
+  &__main-content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__iphone-container {
+    margin-left: -5rem;
+    position: relative;
+  }
+  &__iphone-screenshot {
+    background-image: url('../../assets/images/add-your-screenshot-here2x.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    width: 29.8rem;
+    height: 51.1rem;
+    position: absolute;
+    top: 8.4rem;
+    left: 7rem;
+  }
+
+  &__text-box {
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+  }
+  &__highlight {
+    color: $color-primary-light-2;
+  }
+}
