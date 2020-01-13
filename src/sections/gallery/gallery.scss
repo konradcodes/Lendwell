@@ -8,12 +8,7 @@
     $color-primary-dark
   );
 
-  &__container {
-    display: flex;
-    // justify-content: center;
-  }
   &__image {
-    width: 25rem;
     height: 45rem;
     object-fit: cover;
   }

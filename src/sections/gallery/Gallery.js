@@ -20,17 +20,15 @@ const Gallery = () => (
   <div className="gallery">
     <Wrapper>
       <SimpleSwiper>
-        <div className="gallery__container">
-          {galleryContent.map(item => (
-            <div className="swiper-slide">
-              <img
-                src={item.image}
-                className="gallery__image"
-                alt="Application Screenshot"
-              />
-            </div>
-          ))}
-        </div>
+        {galleryContent.map(item => (
+          <div className="swiper-slide">
+            <img
+              src={item.image}
+              className="gallery__image"
+              alt="Application Screenshot"
+            />
+          </div>
+        ))}
       </SimpleSwiper>
     </Wrapper>
   </div>
