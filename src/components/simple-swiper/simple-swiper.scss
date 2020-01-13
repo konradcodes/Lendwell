@@ -1,0 +1,11 @@
+@import '../../scss/variables.scss';
+
+.simpleSwiper {
+  &__pagination {
+  }
+}
+
+//Package Related
+.swiper-pagination-bullet {
+  background: $color-white;
+}

@@ -1,24 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Swiper from 'react-id-swiper';
-import 'swiper/swiper.scss';
-import './SimpleSwiper.scss';
-import { Navigation, Pagination } from 'swiper/js/swiper.esm';
+import './simpleSwiperLibrary.scss';
+import './simple-swiper.scss';
 
 const SimpleSwiper = ({ children }) => {
   const params = {
+    slidesPerView: 4,
     pagination: {
-      el: '.swiper-pagination',
+      el: '.swiper__pagination',
       type: 'bullets',
       clickable: true
     },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    },
-    spaceBetween: 30
+    spaceBetween: 10
   };
-  return <Swiper {...params}>{children}</Swiper>;
+  return (
+    <Swiper {...params}>
+      <div className="swiper-container">
+        <div className="swiper-wrapper">{children}</div>
+      </div>
+    </Swiper>
+  );
 };
 
 SimpleSwiper.propTypes = {
