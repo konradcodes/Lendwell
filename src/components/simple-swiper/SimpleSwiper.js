@@ -7,6 +7,7 @@ import './simple-swiper.scss';
 
 const SimpleSwiper = ({ children }) => {
   const params = {
+    loop: true,
     slidesPerView: 4,
     pagination: {
       el: '.swiper__pagination',
