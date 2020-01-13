@@ -3,11 +3,20 @@ import PropTypes from 'prop-types';
 import './paragraph-primary.scss';
 import '../../scss/variables.scss';
 
-const ParagraphPrimary = ({ text, fontSize, color, lineHeight }) => {
+const ParagraphPrimary = ({
+  text,
+  fontSize,
+  fontWeight,
+  color,
+  lineHeight,
+  margin
+}) => {
   const styles = {
     fontSize: `${fontSize}rem`,
+    fontWeight,
     color,
-    lineHeight
+    lineHeight,
+    margin
   };
 
   return (

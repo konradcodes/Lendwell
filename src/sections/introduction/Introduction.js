@@ -43,6 +43,7 @@ const Introduction = () => (
             fontSize="1.7"
             color="#9da6ac"
             lineHeight="1.75"
+            margin="2.5rem 0 3.5rem 0"
           />
         </div>
       </div>

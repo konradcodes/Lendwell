@@ -32,8 +32,10 @@ const Header = () => (
           <ParagraphPrimary
             text="Iolite is great new responsive app landing page template for your awesome app. This is freebie from uimint.com & you will get useful resources from there."
             fontSize={2.2}
+            fontWeight={300}
             color="#ffffff"
             lineHeight="1.5"
+            margin="2.5rem 0 3.5rem 0"
           />
           <ButtonDownload text="Download App" />
         </div>
